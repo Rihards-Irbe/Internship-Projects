@@ -20,5 +20,5 @@ Due to the sensitive nature of the data and company confidentiality policies, I 
 ## Technologies Used  
 - Languages: Python, Flask, Behave
 - Tools: Postman, PyCharm
-- APIs: [Geocode](https://geocode.xyz/api), [open-meteo]https://open-meteo.com/en/docs
+- APIs: [Geocode](https://geocode.xyz/api), [open-meteo](https://open-meteo.com/en/docs)
 - Database: MongoDB
