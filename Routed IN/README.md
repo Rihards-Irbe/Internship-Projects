@@ -5,9 +5,9 @@
 ## Overview  
 As part of a five member student team selected for the RoutedIN internship, I contributed to the development of a fully functional company website. My primary responsibility was building the Contact Me section, which included:
 
-    1. Implementing input validation,
-    2. Integrating CAPTCHA,
-    3. Sending form data for SMTP-based email processing.
+1. Implementing input validation,
+2. Integrating CAPTCHA,
+3. Sending form data for SMTP-based email processing.
 
 ## Features
 
