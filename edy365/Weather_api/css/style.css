@@ -1,0 +1,103 @@
+body{
+background-color: gray;
+}
+
+#cityname{
+	
+  position: absolute;
+  left: 48%;
+  top: 25%;
+  z-index: 1;
+  font-size: 30px;
+  font-family: Sans-Serif;
+	
+}
+
+#temp{
+	
+  position: absolute;
+  left: 41%;
+  top: 35%;
+  z-index: 1;
+  font-size: 20px;
+  font-family: Sans-Serif;
+	
+}
+
+.rectangle {
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  height: 550px;
+  width: 400px;
+  background-color: white;
+  border-radius: 15px;
+  border-color: #60aa00;
+  z-index: 0;
+}
+
+#wind{
+	
+  position: absolute;
+  left: 41%;
+  top: 40%;
+  z-index: 3;
+  font-size: 20px;
+  font-family: Sans-Serif;
+	
+}
+
+#weather{
+	
+  position: absolute;
+  left: 41%;
+  top: 45%;
+  z-index: 4;
+  font-size: 20px;
+  font-family: Sans-Serif;
+	
+}
+
+#textinput{
+	
+  position: absolute;
+  left: 40%;
+  top: 5%;
+  height: 50px;
+  width: 200px;
+  z-index: 4;
+  font-size: 30px;
+  font-family: Sans-Serif;
+	
+}
+
+#submitbtn{
+	
+ position: absolute;
+ left: 51%;
+ top: 5%;
+ height: 56px;
+ width: 180px;
+ font-size: 40px;
+ background-color: white;
+ color: gray;
+ font-family: Sans-Serif;
+ cursor: pointer;
+ text-align: center;
+	
+}
+
+#submitbtn:hover {background-color: green; color: white}
+
+#Error{
+	
+  position: absolute;
+  left: 41%;
+  top: 30%;
+  z-index: 4;
+  font-size: 20px;
+  font-family: Sans-Serif;
+  color: red;
+	
+}
+

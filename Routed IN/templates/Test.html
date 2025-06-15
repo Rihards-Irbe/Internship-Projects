@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<link rel="Capcha" type="text/javascript" href="{{ url_for('static', filename='Captcha.js')}}">
+<link rel="Output" type="text/javascript" href="{{ url_for('static', filename='Output.js')}}">
+<link rel="Email" type="text/javascript" href="{{ url_for('static', filename='EmailValidator.js')}}">
+<head>
+	<title>
+		routedin
+	</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Podkova:wght@500&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- pievienots description -->
+	<meta name="description" content="Cloud platformas un Sistēmu izstrāde">
+	<!-- Atslegas vardi, ar ko google mekletaja atradis so majaslapu *Japaprasa* -->
+	<meta name="keywords" content="Cloud, Cloud platforma, Sistēmas, Sistēmu Izstrāde">
+	<link rel="shortcut icon" type="image/ico" href="{{ url_for('img', filename='logo.ico')}}">
+	
+</head>
+<body onload="Captcha();">
+<header>
+	<div class="header">
+		<div class="container">
+					<img src="img/logo.png" alt="logo"/>
+		  			<span>routedin</span>
+			<nav class="nav">
+				<a class="nav__link" href="#">Services</a>
+      			<a class="nav__link" href="#">Our customers</a>
+      			<a class="nav__link" href="#">About us</a>
+				<a class="a__link" href="#">Contact us</a>
+			</nav>
+		</div>
+	</div>
+</header>
+<div class="intro">
+   	<div class="container">
+   		<div class="intro__inner">
+
+   		</div>
+   	</div>
+</div>
+
+<div>
+	<h2>01 services</h2>
+		<p>
+			Our offering portfolio<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie lacus aliquam aliquam nibh sed ac vestibulum nibh mi. In lorem risus natoque enim venenatis enim vestibulum. Urna interdum massa velit, penatibus amet, mattis arcu. Arcu orci, tellus, et vel, ornare in. Eget mauris, at malesuada vulputate odio id at integer. Imperdiet viverra nulla cras ipsum ullamcorper vitae. Duis dolor massa facilisis purus nulla nulla quis.</p>
+		<img src="img/img.jpg" width="30" alt="img">
+	</div>
+
+
+    <div class="row">
+	<div class="column">
+		<h3>Title2</h3>
+		<p>Analysis of current IT infrasturcture<br>Defenition of improvement scope<br>Adaption of secure remote work</p>
+		<p>Consulting & audit</p>
+	    
+		<h4>Title2</h4>
+		<p>Secure remote work solutions implementation<br>Implementation of IT infrastructure process improvement solutions</p>
+		<p>IT infrasturcutre modernisation</p>
+	</div>
+	</div>
+	<div>
+		<h5>Technology stack</h5>
+		<p style="color: green;">DevOPS/ CloudOPS/ SecOPS</p>
+		<p>Core capabilities &<br>Skills</p>	
+	</div>
+	<div> 
+		<img src="img/img.png" width="30" alt="img">
+	</div>
+
+	<div>
+		<h2>02 our customers</h2>
+			<p>What we did<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie lacus aliquam aliquam nibh sed ac vestibulum nibh mi. In lorem risus natoque enim venenatis enim vestibulum. Urna interdum massa velit, penatibus amet, mattis arcu. Arcu orci, tellus, et vel, ornare in. Eget mauris, at malesuada vulputate odio id at integer. Imperdiet viverra nulla cras ipsum ullamcorper vitae. Duis dolor massa facilisis purus nulla nulla quis.</p>
+		<img src="img/img.jpg" width="30" alt="img">
+	</div>
+
+    <div class="row">
+		<div class="column">
+			<img src="img/azeron.png" width="30" alt="azeron">
+			<p>Azeron produces uniquely designed ergonomic computer game controllers that make gaming especially convenient.</p>
+		</div>
+
+
+		<div class="column">
+			<img src="img/dpd.png" width="30" alt="dpd">
+			<p>DPD is a leading company on the market of parcel and shipment delivery in the Baltic States and Europe alike.</p>
+		</div>
+
+		<div class="column">
+			<img src="img/latelectrics.png" width="30" alt="latelectrics">
+				Latelectrics helping their clients to automate, develop and implement conveyor systems.
+		</div>
+	</div>
+
+	<div>
+		<h2>03 ABOUT US<br>Team</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie lacus aliquam aliquam nibh sed ac vestibulum nibh mi. In lorem risus natoque enim venenatis enim vestibulum. Urna interdum massa velit, penatibus amet, mattis arcu. Arcu orci, tellus, et vel, ornare in. Eget mauris, at malesuada vulputate odio id at integer. Imperdiet viverra nulla cras ipsum ullamcorper vitae. Duis dolor massa facilisis purus nulla nulla quis.</p>
+	</div>
+
+	<div>
+		<h2>04 CONTACT US <br>Get routed in right now</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie lacus aliquam aliquam nibh sed ac vestibulum nibh mi. In lorem risus natoque enim venenatis enim vestibulum. Urna interdum massa velit, penatibus amet, mattis arcu. Arcu orci, tellus, et vel, ornare in. Eget mauris, at malesuada vulputate odio id at integer. Imperdiet viverra nulla cras ipsum ullamcorper vitae. Duis dolor massa facilisis purus nulla nulla quis.</p>
+		</div>
+	<div>
+		<form action="#" name="form1">
+		<label for="Vards" style="font-font-famiy:Helvetica; font-size:15px">Tavs vards:</label><br>
+			<input placeholder="Text Field" type="text" name="Vards" id="Vards" style="font-size:30px"/> <br><br>
+			<label for="Telefonanr" style="font-font-famiy:Helvetica; font-size:15px">Tavs telefona nr:</label><br>
+			<input placeholder="Text Field" type="text" name="Telefonanr"id="Telefonanr" style="font-size:30px"/> <br><br>
+			<label for="koments" style="font-font-famiy:Helvetica; font-size:15px">koments:</label><br>
+			<input placeholder="Text Field" type="text" name="koments"id="koments" style="font-size:30px"/> <br><br>
+			<label for="epasts" style="font-font-famiy:Helvetica; font-size:15px" required>Tavs e-pasts:</label><br>
+			<input placeholder="Text Field" style="font-size:30px" id="epasts" type="text" name="epasts"/><br>
+			<input style="font-size:15px" id="btnSubmit" type="button" value="Pabeigt"; disabled="disabled" onclick="ValidateEmail(document.form1.epasts)" title="Izpildi Human Verification, lai pabeigtu!"/>
+		</form>
+	</div>
+	<table>
+          <tr>
+           <td>
+		   <label for="Telefona nr" style="font-font-famiy:Helvetica; font-size:15px">Human verification:</label><br>
+             <input style="font-size: 20px" disabled="disabled" type="text" id="mainCaptcha" readonly/>
+              <input style="position: relative; font-size: 20px" disabled="disabled" type="text" id="txtInput"/>
+			  <input style="width:40px; height:40px; position: absolute" img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Ic_refresh_48px.svg/2048px-Ic_refresh_48px.svg.png" type="image" id="refresh" value="Refresh" disabled="disabled" onclick="Captcha();" />
+           </td>
+          </tr>
+          <tr>
+           <td>
+			<input style="font-size:15px" id="Gatavs" type="button" name="Submit" value="Gatavs"  disabled="disabled" onclick="alert(ValidCaptcha())"/></li>
+          </td>
+         </tr>
+      </table>
+</div>
+	  <script type="text/javascript">
+window.addEventListener('keydown',function(e){if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){if(e.target.nodeName=='INPUT'&&e.target.type=='text'){e.preventDefault();return false;}}},true);
+</script>
+<script type="text/javascript" src="Captcha.js"></script>
+<script type="text/javascript" src="EmailValidator.js"></script>
+<script type="text/javascript" src="Output.js"></script>
+		<div class="container_bottom">
+			<img src="img/logo.png" alt="logo"/>
+			  <span>routedin</span>
+			  <p>Bring your IT processes to today's modern standards</p>
+	<nav class="bot">
+		<a class="bott__link" href="#">Sections</a>
+		<a class="bot__link" href="#">About us</a>
+		<a class="bot__link" href="#">Our services</a>
+		<a class="bot__link" href="#">Our customers</a>
+		<a class="bot__link" href="#">Contact us</a>
+		<a class="bott__link" href="#">Legal Info</a>
+		<a class="bot1__link" href="#">Privacy Policy</a>
+	</nav>
+</div>
+	</body>
+</html>

@@ -1,0 +1,107 @@
+body{
+background-color: white;
+}
+#myFile{
+position: absolute;
+left: 50%;
+top: 50%;
+font-size: 25px;
+}
+#check{
+position: absolute;
+left: 67%;
+top: 54.2%;
+}
+h1{
+position: absolute;
+left: 50%;
+top: 51%;
+}
+
+#showFilessList{
+	
+	font-size: 20px;
+	
+}
+
+#status{
+position: absolute;
+left: 67%;
+top: 55%;
+}
+
+#submit{
+position: absolute;
+left: 86%;
+top: 86%;
+font-size: 50px;
+padding: 13px 13px 13px;
+background-color: white;
+border-radius: 15px;
+border-color: #60aa00;
+color: #60aa00;
+font-family: Sans-Serif;
+cursor: pointer;
+}
+#submit:hover {background-color: #60aa00; color: white}
+
+	.closeIT {
+			position: relative;
+			left: 50%;
+			padding: 5px;
+            background: black;
+            color: red;
+            float: right;
+            cursor: pointer
+        }
+		
+#inputTypeFile{
+	
+font-size: 30px;
+padding: 0px 50px 0px;
+	
+}
+
+#apraksts{
+	
+	font-size: 30px;
+	font-family: Sans-Serif;
+	color: #60aa00;
+	padding: 0px 50px 0px;
+	
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload{
+	
+  position: relative;
+  left: 50px;
+  color: #60aa00;
+  font-size: 30px;
+  width: 50px;
+  height: 100px;
+  background: white;
+  border: 1px solid #60aa00;
+  border-radius: 15px;
+  padding: 13px 13px 13px;
+  cursor: pointer;
+  font-family: Sans-Serif;
+}
+
+.custom-file-upload:hover{background-color: #60aa00; color: white}
+
+
+#fileList{
+	
+	position: relative;
+	font-size: 20px;
+	font-family: Sans-Serif;
+	padding: 20px 50px 0px;
+	
+}
+
+
+
