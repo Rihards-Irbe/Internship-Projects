@@ -1,6 +1,6 @@
 # 🧑‍💻 Internship Projects
 
-This repository contains various projects and exercises completed during my internships at **RoutedIN**,**edy365** and **MeaWallet**.
+This repository contains various projects and exercises completed during my internships at **RoutedIN**, **edy365** and **MeaWallet**.
 Each folder showcases a different phases of my learning — from early training tasks to more advanced, production-level work involving APIs, automation, testing, and deployment.
 
 ## 📁 Contents
@@ -12,5 +12,3 @@ Each folder showcases a different phases of my learning — from early training 
 ## ℹ️ Note
 
 Each folder includes a `README.md` file with a detailed overview of the corresponding internship and the projects completed during that period.
-
----
