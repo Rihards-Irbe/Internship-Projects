@@ -9,6 +9,6 @@ Each folder showcases a different phases of my learning, from early training tas
 - `edy365/` – Focused on learning APIs and foundational web design principles.
 - `MEA_Wallet/` – A comprehensive 5–6 month internship where I gained the most hands-on experience, particularly in backend development, APIs, and deployment practices.
 
-## ℹ️ Note
+## 📌 Note
 
 Each folder includes a `README.md` file with a detailed overview of the corresponding internship and the projects completed during that period.
